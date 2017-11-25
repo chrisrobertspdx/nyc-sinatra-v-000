@@ -1,4 +1,4 @@
-class CreateFigures.rb < ActiveRecord::Migration
+class CreateFigures < ActiveRecord::Migration
   def change
     create_table :figures do |t|
       t.string :name
