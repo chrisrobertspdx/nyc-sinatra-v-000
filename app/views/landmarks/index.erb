@@ -1,0 +1,4 @@
+<h1>Landmarks</h1>
+<% Landmark.all.each{ |l| %>
+  <%= l.name %> - <%= l.year_completed %><br>
+<% } %>
